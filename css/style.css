@@ -91,7 +91,6 @@ p {
   left: 0;
   bottom: -5px;
 }
-
 /* ======CONTENT========*/
 .content {
   max-width: 565px;
@@ -118,7 +117,10 @@ span {
   color: #fff;
   margin-bottom: 50px;
 }
-
+.planet{
+  width: 16px;
+  height: 16px;
+}
 /*  ========BUTTON======== */
 
 .btn {
@@ -229,7 +231,7 @@ span {
     font-size: 2.5rem;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1112px) {
   .content {
     margin: 0 auto;
     text-align: center;
@@ -257,6 +259,9 @@ span {
   .contacts {
     flex-direction: column;
     text-align: center;
+  }
+  .btn {
+    margin-left: 360px;
   }
 }
 @media (max-width: 993px) {
